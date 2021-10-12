@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7afcd528924148b79508ad4781eacafa" Name="Diagram1">
+        <EntityTypeShape EntityType="masterModel.DEPT" Width="1.5" PointX="3" PointY="1.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="masterModel.Person1" Width="1.5" PointX="2.875" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.STUDENT" Width="1.5" PointX="0.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.HRM" Width="1.5" PointX="5.375" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.MSreplication_options" Width="1.5" PointX="6.625" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.SalesPerson" Width="1.375" PointX="5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_db" Width="1.5" PointX="4.875" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_dev" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_fallback_usg" Width="1.5" PointX="8.375" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.spt_monitor" Width="1.5" PointX="2.625" PointY="9.125" IsExpanded="true" />
+        <AssociationConnector Association="masterModel.FK__DEPT__SID__72E607DB" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__STUDENT__MNGRID__73DA2C14" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
