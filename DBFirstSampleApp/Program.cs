@@ -12,7 +12,7 @@ namespace DBFirstSampleApp
         {
             using (masterEntities1 dbContext = new masterEntities1())
             {
-                //Sql Query
+                /*Sql Query
                 var stu = dbContext.STUDENTs.SqlQuery("SELECT * FROM STUDENT where id = 1;").SingleOrDefault();
 
                 //Lazy Loading
@@ -29,7 +29,7 @@ namespace DBFirstSampleApp
 
                 //Extension Methods
                 var STUDENTFirst = dbContext.STUDENTs.First();
-                var DiscountedAmount = STUDENTFirst.GetDiscountedAmount();
+                //var DiscountedAmount = STUDENTFirst.GetDiscountedAmount();
 
                 //Group By
                 var STUDENTGroupBySTDID = dbContext.STUDENTs.GroupBy(s => s.STDID).ToList();
@@ -74,7 +74,7 @@ namespace DBFirstSampleApp
                 Person1 PersRemove = dbContext.Person1.Where(x => x.FirstName == "Suyash").FirstOrDefault();
                 dbContext.Person1.Remove(PersRemove);
                 dbContext.SaveChanges();
-                dbContext.Person1.ToList().ForEach(pers => { Console.WriteLine($"Name {pers.FirstName}, City: {pers.City}"); });
+                dbContext.Person1.ToList().ForEach(pers => { Console.WriteLine($"Name {pers.FirstName}, City: {pers.City}"); });*/
              }
                 Console.ReadLine();
         }
